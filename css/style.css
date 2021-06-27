@@ -431,7 +431,7 @@ li + li {
   }
 
   .footer {
-    padding: 11.875rem 7.5rem 0 7.5rem;
+    padding: 11.875rem 5rem 0 7.5rem;
     font-size: 16px;
   }
 
@@ -443,19 +443,26 @@ li + li {
     display: grid;
     grid-template-columns: 1fr 320px 1fr;
     /* align-content: center; */
-    gap: 70px;
+    gap: 135px;
   }
   .footer__first-list {
     margin: 0;
+    width: 364px;
+    height: 167px;
   }
   .footer__second-list {
     margin: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40px 40px 40px;
-    column-gap: 30px;
+    column-gap: 70px;
+    font-size: 1.1em;
   }
   .footer__second-list li {
     margin-bottom: 0;
+  }
+  .footer__copy {
+    text-align: right;
+    margin-top: 44px;
   }
 }
