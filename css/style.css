@@ -480,6 +480,11 @@ li + li {
     margin-top: 44px;
   }
 }
+@media all and (min-width: 1108px), all and (max-width: 1121px) {
+  .footer__lists {
+    gap: 114px;
+  }
+}
 @media all and (min-width: 1286px) {
   .cards__card {
     margin-right: auto;
@@ -489,6 +494,7 @@ li + li {
   .cards__card-float {
     width: 800px;
   }
+
   .svg-inline--fa.fa-border + .svg-inline--fa.fa-border {
     margin-left: 13px;
     margin-top: 0;
