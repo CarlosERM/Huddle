@@ -107,7 +107,9 @@ body {
   left: 50%;
   transform: translateX(-50%);
 }
-
+.box__button:hover {
+  opacity: 0.7;
+}
 /* STYLE OF THE IMAGE OF MAIN */
 .main__image img {
   max-width: 100%;
@@ -236,10 +238,12 @@ li + li {
   list-style: none;
   padding: 0;
 }
-
 .footer__second-list a {
   text-decoration: none;
   color: white;
+}
+.footer__second-list a:hover {
+  text-decoration: underline;
 }
 .footer__second-list li:nth-child(1) {
   margin-bottom: 30px;
@@ -247,7 +251,6 @@ li + li {
 .footer__second-list li + li {
   margin-bottom: 30px;
 }
-
 .footer__icons {
   box-sizing: content-box;
   display: inline-block;
@@ -263,6 +266,11 @@ li + li {
 .fa-border {
   border-radius: 50%;
   padding: 0.7rem;
+}
+.fa-border:hover {
+  color: var(--pink);
+  border: 1px solid var(--pink);
+  cursor: pointer;
 }
 .svg-inline--fa.fa-border {
   width: 1.5em;
